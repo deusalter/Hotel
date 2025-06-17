@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f4f4f4;
+  }
+  
+  header {
+    background: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .nav {
+    font-weight: bold;
+    font-size: 20px;
+    color: green;
+  }
+  
+  .breadcrumb {
+    font-size: 12px;
+    color: #555;
+  }
+  
+  main {
+    padding: 20px;
+    background: #fff;
+  }
+  
+  .hotel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .hotel-meta span {
+    margin-right: 10px;
+  }
+  
+  .hotel-meta .small {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .image-grid img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin: 20px 0;
+  }
+  
+  .overview, .rooms, .map, .amenities, .reviews {
+    margin-bottom: 30px;
+  }
+  
+  .rating {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .rating .score {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .features div {
+    background: #e0f0e9;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .rooms ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .rooms li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .rooms button {
+    padding: 5px 10px;
+  }
+  
+  .map img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  .amenities ul {
+    list-style: none;
+    padding: 0;
+    columns: 2;
+  }
+  
+  .subscribe {
+    background: #d1ede1;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .subscribe input {
+    padding: 10px;
+    width: 300px;
+    margin-top: 10px;
+  }
+  
+  .subscribe button {
+    padding: 10px 20px;
+    margin-left: 10px;
+  }
+  
+  .footer-links {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
