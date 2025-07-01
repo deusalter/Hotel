@@ -1,0 +1,228 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #16a34a;
+}
+
+.navbar {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 2rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #16a34a;
+}
+
+.nav-links a {
+  margin-right: 1.5rem;
+  font-weight: 500;
+}
+
+.nav-right {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.main-container {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.breadcrumb {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.hotel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.hotel-title h1 {
+  font-size: 1.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.stars {
+  color: #facc15;
+  font-size: 1.25rem;
+}
+
+.location {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.booking .price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.booking button {
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.gallery {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.main-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.side-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.side-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.overview, .rooms, .map, .amenities, .reviews, .newsletter {
+  margin-bottom: 2rem;
+}
+
+.badges {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.badge {
+  background-color: #d1fae5;
+  color: #065f46;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-weight: 600;
+}
+
+.tag {
+  background-color: #f3f4f6;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
+
+.room {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.room-price {
+  font-weight: 600;
+}
+
+.room button {
+  background-color: #16a34a;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.map img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.amenities ul {
+  list-style: none;
+  columns: 2;
+  padding: 0;
+}
+
+.reviews .review {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.newsletter {
+  background-color: #ecfdf5;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.newsletter form {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.newsletter input {
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+}
+
+.newsletter button {
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.footer {
+  background-color: #bbf7d0;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
